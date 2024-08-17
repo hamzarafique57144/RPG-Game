@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4888a495f136c542ad6e8da287d128d, type: 3}
+  m_Name: WallSO
+  m_EditorClassIdentifier: 
+  objects:
+  - name: Wall
+    Objectmaterail: {fileID: 2100000, guid: a3586df0e548319438d6e2f767951b0b, type: 2}
+    meshFilter: {fileID: 1059599390902796674, guid: 0d6501e0b255ebd4cb2efa494f67698f, type: 3}
+    message: Wall
+  - name: Sphere
+    Objectmaterail: {fileID: 2100000, guid: 93ace8aa90b714847b2c0c59d1c364d1, type: 2}
+    meshFilter: {fileID: 6903320784112158658, guid: 2527697165ed25f4191842de627d56f8, type: 3}
+    message: Sphere
