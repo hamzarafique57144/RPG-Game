@@ -69,7 +69,7 @@ public class Player_Controller : MonoBehaviour
         {
             focus.OnDefocused();
         }
-        focus.OnDefocused();
+       // focus.OnDefocused();
         focus = null;
         motor.StopFollowing();
     }
