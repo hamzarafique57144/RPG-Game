@@ -12,7 +12,7 @@ public class Interactable : MonoBehaviour
     public virtual void Interact()
     {
         //This method is to meant ovverWritten
-        Debug.Log("Interacting with " + interactionTransform.name);
+        
     }
     private void Update()
     {
